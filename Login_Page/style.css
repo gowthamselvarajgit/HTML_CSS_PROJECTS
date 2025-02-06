@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+.container{
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .complete-form{
+  position: relative;
+  width: 350px;
+  /* height: 500px; */
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+.container .complete-form .form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #800080;
+  padding: 5px 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+.form .login-form{
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+.complete-form .entry-form{
+  padding: 10px;
+}
+
+.entry-form .email-password{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  height: 100px;
+}
+
+.email-password .email{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  /* padding: 5px; */
+  border: 1px solid #ccc;
+}
+
+.email .profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #800080;
+  width: 35px;
+  height: 35px;
+  border: none;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px  0px  0px 5px;
+}
+
+.email-input{
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent; /* Matches the container background */
+  padding: 0;
+  font-size: 14px;
+}
+.profile i{
+  font-size: 20px;
+  color: white;
+}
+
+.email-password .password{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  /* padding: 5px; */
+  border: 1px solid #ccc;
+}
+
+.password .lock{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #800080;
+  width: 35px;
+  height: 35px;
+  border: none;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px  0px  0px 5px;
+}
+
+.password-input{
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent; /* Matches the container background */
+  padding: 0;
+  font-size: 14px;
+}
+
+.lock i{
+  font-size: 20px;
+  color: white;
+}
+
+.entry-form .forget {
+  cursor: pointer;
+}
+.entry-form .forget a{
+  text-decoration: none;
+}
+.entry-form .forget p{
+  font-size: 14px;
+  color: #800080;
+}
+
+.entry-form .login{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.login button{
+  width: 100%;
+  padding: 8px;
+  background-color: #800080;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.15s linear;
+}
+
+.login button:hover{
+  background-color: #993399;
+}
+.login button:active{
+  background-color: #4d004d;
+}
+
+.entry-form .member{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.member p{
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.member a{
+  text-decoration: none;
+}
+.member span{
+  color: #800080;
+}
