@@ -55,7 +55,7 @@ ul {
 .sidebar_menu .menu li{
   margin-top: 3px;
   padding: 12px 20px;
-  transition: box-shadow 0.5s, border-left 0.5s;
+  transition: all 0.5s linear;
 }
 
 .sidebar_menu .menu i{
@@ -92,7 +92,7 @@ ul {
   padding: 0px 5px;
   cursor: pointer;
   opacity: 0.8;
-  transition: opacity 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .social_media i:hover{
